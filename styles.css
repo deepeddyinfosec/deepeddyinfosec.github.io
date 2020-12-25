@@ -1,0 +1,81 @@
+A:link {color:#001fd9;text-decoration:none;}
+A:Active {color:#001fd9;text-decoration:none;}
+A:Visited {color:#001fd9;text-decoration:none;}
+A:Hover {background-color:#ffdb03}
+
+.center {text-align: center;}
+
+.dropv, .dropv ul {padding: 0; margin: 0; list-style: none;}
+.dropv a {display: inline; width: 170px;}
+.dropv li {float: left; padding: 0px 8px 2px 0px;}  /* all list items */
+.dropv li ul {position: absolute; background: #656565; 
+  padding: 0px 0px 0px 4px; width: 170px; left: -9999px;} /* second-level lists */
+.dropv li:hover ul {left: auto; } /* nest list under hovered list items */
+.dropv li ul li a {color: #ffffff; text-decoration: none; display: block;}
+.dropv li ul li a:hover {color: yellow; background:#8398AF;}
+
+/*GROW*/
+.growindex img {
+  height: 60px;
+  width: 60px;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.growindex img:hover {
+  width: 150px;
+  height: 150px;
+}
+
+.arial {font-family: Arial}
+.arial80 {font-family: Arial; font-size: 80%}
+.arial100 {font-family: Arial; font-size: 100%}
+.arial120 {font-family: Arial; font-size: 120%}
+.bold {font-weight:bold}
+.bq {text-align: center; margin-left:25%; margin-right:25%}
+.yellow {color:yellow}
+.blue {color:#003366;}
+.lblue {color:#8398AF;}
+.ctr {text-align: center}
+.font60 {font-size:60%}
+.font70 {font-size:70%}
+.font80 {font-size:80%}
+.font90 {font-size:90%}
+.font100 {font-size:100%}
+.font120 {font-size:120%}
+.entry {font-size:150%}
+.helvetica {font-family: Helvetica;}
+.ital {font-style: italic}
+.under {text-decoration: underline}
+.cblock {width:750px;float:left;}
+.mblock {width:200px;float:right;}
+.fblock {clear:both;text-align:center;}
+.pblock {width:250px;height:210px;float:left;text-align:center;}
+.pblock-wide {width:500px;height:210px;float:left;text-align:center;}
+.pblock-tall {width:250px;float:left;text-align:center;}
+.nextsection {clear:both;}
+#breadcrumb ul {text-align:right;list-style-type:none;padding:0;margin:0;font-size:80%;}
+#breadcrumb li {font-family:Arial;display:inline;list-style-type:none;}
+#topindex ul {text-align:center;list-style-type:none;padding:0;margin:0;font-size:80%;}
+#topindex li {font-family:Arial;display:inline;list-style-type:none;}
+
+.item {height:210px;position:relative;}
+.cover {position:absolute;bottom:0;left:0;}
+.details {position:absolute;bottom:0;left:210;}
+.hr50 {width:50%;text-align:center}
+
+.rightpic {float:right;margin:5px}
+
+img.fullsizecover {
+   height: 160px;
+   border: 1px solid;
+}
+
+img.smallcover {
+   height: 125px;
+   border: 1px solid;
+}
