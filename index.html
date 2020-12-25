@@ -1,3 +1,138 @@
 <!DOCTYPE html>
-test page blah
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<title>Deepeddy InfoSec</title>
+
+<META NAME="keywords" CONTENT="security, info security, information security, cyber security, cybersecurity, XSS, cross-site scripting, hacking, ethical hacking, penetration testing">
+<META NAME="description" CONTENT="Security">
+<meta NAME="robots" CONTENT="index">
+<meta NAME="robots" CONTENT="follow">
+<meta NAME="coverage" content="Worldwide">
+<meta NAME="revisit-after" content="10 days">
+<meta NAME="AUTHOR" CONTENT="http://www.deepeddyinfosec.com">
+<meta NAME="COPYRIGHT" CONTENT="http://www.deepeddyinfosec.com">
+<meta NAME="CLASSIFICATION" CONTENT="http://www.deepeddyinfosec.com">
+
+<link rel=stylesheet href=styles.css type="text/css">
+
+</head>
+
+<body bgcolor="#000000" text="#FFFFFF">
+
+<table border="0" width="60%" height="100%" align=center bgcolor="#000000">
+<tr>
+<td colspan="2" valign=top align=center bgcolor="#000000"><img src="img/deepeddyinfosec.png" width="100%" alt="Deep Eddy InfoSec"></td>
+</tr>
+
+<tr>
+<td style="background-color:#283cff" "height:10px" colspan="2"></td>
+</tr>
+
+<tr>
+<td colspan="2">
+
+	<table border="0" cellpadding="5" style="background-color:grey">
+	<tr>
+	<td>
+	<img src="img/whoami.png" width="20" alt="whoami" style="float: left; margin: 3px" width="25" border="0">
+	</td>
+	
+	<td>
+	<div style="text-align: center;"><img src="img/ted.jpg" alt="Ted James" height="100" border="1"></div>
+	</td>
+
+	<td>
+	<p style="font-family:arial, helvetica">I&acute;m Ted James, and I'm a full-time application security specialist, a part-time musician, and a lifelong student. I'm here trying to give something back to the information security community. I've posted some beginner-level tutorials and product reviews and will be posting more as I write them. <a href="https://twitter.com/deepeddyinfosec" target="_blank" rel="”noopener" noreferrer”="">Follow me on Twitter!</a>
+	</p>
+	</td>
+	
+	<td>
+	<div style="text-align: center;"><a href="https://www.hackingisnotacrime.org" target="_blank" rel="”noopener" noreferrer”=""><img src="img/HINAC.png" alt="Hacking Is Not A Crime" width="280" height="100"></a></div>
+	</td>
+
+	<td>
+	<img src="img/whoami.png" width="20" alt="whoami" style="float: right; margin: 3px" width="25" border="0">
+	</td>
+	</tr>
+	</table>
+	
+</td>
+</tr>
+
+<!---<tr>
+<td colspan="2">
+<p style="text-align:center">
+<a href="https://twitter.com/deepeddyinfosec?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @deepeddyinfosec</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+</td>
+</tr>-->
+
+<tr>
+<td style="background-color:#283cff" "height:10px" colspan="2"></td>
+</tr>
+
+<tr>
+<td rowspan="2" width="400"><a class="twitter-timeline" data-width="400" data-height="700" data-theme="dark" href="https://twitter.com/deepeddyinfosec?ref_src=twsrc%5Etfw">Tweets by deepeddyinfosec</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></td>
+</tr>
+
+<tr>
+<td valign="top">
+
+	<table border="0" align="center">
+	<tr>
+	<td valign="top">
+	<div style="text-align: center;"><img src="img/tutorials.png" alt="Tutorials" width="280"></div>
+	<font face="arial, helvetica">
+	<ul style="text-align: left;">
+	<li><a href="content/tutorials/XSS Payload Examples.pdf" target="_blank" rel="”noopener" noreferrer”="">XSS Payload Examples</a> <span style="color: red">PDF</span></li>
+	<li><a href="content/tutorials/More XSS Attacks.pdf" target="_blank" rel="”noopener" noreferrer”="">More XSS Attacks</a> <span style="color: red">PDF</span></li>
+	<li><a href="content/tutorials/Website Defacement Using Stored XSS.pdf" target="_blank" rel="”noopener" noreferrer”="">Website Defacement Using Stored XSS</a> <span style="color: red">PDF</span></li>
+	</ul>
+	</font>
+	</td>
+
+	<td valign="top">
+	<div style="text-align: center;"><img src="img/reviews.png" alt="Reviews" width="280"></div>
+	<font face="arial, helvetica">
+	<ul style="text-align: left;">
+	<li><a href="content/reviews/The Pentester Blueprint.pdf" target="_blank" rel="”noopener" noreferrer”="">The Pentester BluePrint</a> <span style="color: red">PDF</span></li>
+	<li><a href="content/reviews/Elecrow 10.1 Inch Raspberry Pi Monitor.pdf" target="_blank" rel="”noopener" noreferrer”="">Elecrow 10.1 Inch Raspberry Pi Monitor</a> <span style="color: red">PDF</span></li>
+	<li><a href="content/reviews/Techole HDMI Splitter.pdf" target="_blank" rel="”noopener" noreferrer”="">Techole HDMI Splitter</a> <span style="color: red">PDF</span></li>
+	</ul>
+	</font>
+	</td>
+	</tr>
+
+	<tr>
+	<td colspan="3">
+	<div style="text-align: center;"><img src="img/dumpsterfire.png" alt="2020" width="475"></div>
+	</td>
+	</tr>
+
+	<tr>
+	<td style="background-color:#283cff" "height:10px" colspan="3"></td>
+	</tr>
+
+	<tr>
+	<td align="center" colspan="3">
+	<font face="arial, helvetica" size="-2">
+	ALL SITE CONTENT
+	<script>
+	var dt= new Date();
+	var thisyear = dt.getFullYear();
+	document.write('&copy;  '+thisyear+' ');
+	</script>
+	DEEPEDDY INFOSEC EXCEPT WHEN IT'S
+	<xss onmouseover="confirm('Congratulations! You found the secret XSS. Have a cookie!')">NOT</xss>
+	</font>
+	</td>
+	</tr>
+	</table>
+	
+</td>
+</tr>
+</table>
+
+</body>
 </html>
